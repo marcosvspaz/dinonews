@@ -1,7 +1,7 @@
 import { Container } from './styles'
 
 function Header() {
-    return <Container>Balaren</Container>
+    return <Container></Container>
 }
 
 export default Header
