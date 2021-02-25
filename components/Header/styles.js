@@ -1,7 +1,9 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-width: 100px;
+margin:0;
+
+width: 100%;
 height: 100px;
 background: pink;
 color: white;
