@@ -1,5 +1,7 @@
+import { Container } from './styles'
+
 function Header() {
-    return <div>Home</div>
+    return <Container>khgfkajhsdfg</Container>
 }
 
 export default Header
