@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev2": "next dev",
+    "start": "node server.bundle.js",
+    "build": "webpack",
+    "dev": "nodemon ./server.js localhost 3080"
   },
   "repository": {
     "type": "git",
