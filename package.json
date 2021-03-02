@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev2": "next dev",
+    "build2": "next build",
+    "start2": "next start",
     "start": "node server.bundle.js",
     "build": "webpack",
     "dev": "nodemon ./server.js localhost 3080"
