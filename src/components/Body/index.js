@@ -1,7 +1,7 @@
 import { Container } from './styles'
 
 function Body () {
- return <Container></Container>
+ return <Container>BODY</Container>
 }
 
 export default Body
