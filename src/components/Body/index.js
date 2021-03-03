@@ -14,6 +14,9 @@ function Body () {
     font-family: Arial, 'Segoe UI', Tahoma, Verdana, sans-serif;
 </P>
 <BoxNews></BoxNews>
+<BoxNews></BoxNews>
+<BoxNews></BoxNews>
+<BoxNews></BoxNews>
      </Container>
 }
 
