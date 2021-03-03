@@ -1,11 +1,12 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-margin-top: 30px;
+margin:0;
 border:0;
 width: 100%;
-height: 800px;
-background: pink;
+height: 250px;
+background: blue;
+color: white;
 color: black;
 font-size: 80px;
 text-align: center;

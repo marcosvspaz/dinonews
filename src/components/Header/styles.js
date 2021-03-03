@@ -4,7 +4,7 @@ export const Container = styled.div`
 margin:0;
 border:0;
 width: 100%;
-height: 200px;
+height: 135px;
 background: pink;
 color: white;
 color: black;

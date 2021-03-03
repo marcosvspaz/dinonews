@@ -2,7 +2,7 @@ import { Container, P } from './styles'
 
 function Header() {
     return <Container>
-        Header
+         Dino News Header
         <P>W= 100% <br></br> H= 200px</P>
     </Container>
 }
