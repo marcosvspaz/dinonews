@@ -1,9 +1,10 @@
 import { Container, P } from './styles'
+import BoxNews from '../BoxNews'
 
 function Body () {
  return <Container>
      BODY
-     <P>W= 100% <br></br> H= 800px <br></br> M-T= 50px</P>
+     <P>W= 100% <br></br> H= 800px <br></br> M-T= 30px</P>
      Global style
      <P>    margin: 0; <br></br>
     padding: 0;<br></br>
@@ -12,6 +13,7 @@ function Body () {
    
     font-family: Arial, 'Segoe UI', Tahoma, Verdana, sans-serif;
 </P>
+<BoxNews></BoxNews>
      </Container>
 }
 
