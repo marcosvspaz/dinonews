@@ -8,9 +8,10 @@ background: pink;
 color: black;
 font-size: 80px;
 text-align: center;
-padding-bottom: 30px;
+padding:110px;
 `
 export const P = styled.p`
 
 
 `
+

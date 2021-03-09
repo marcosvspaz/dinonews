@@ -1,10 +1,12 @@
-import { Container, P} from './styles'
+import { Container, P, Arrows, Banner} from './styles'
 
 function Carrousel () {
  return <Container>
-     Carrousel 
-     <P>W= 100% <br></br> H= 360px<br></br> M-T= 30px</P>
- 
+   <Arrows></Arrows>
+    <Banner></Banner>
+
+   <Arrows></Arrows>
+
  </Container>
 
 }

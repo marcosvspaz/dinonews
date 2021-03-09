@@ -1,9 +1,11 @@
-import { Container, P } from './styles'
+import { Container, P,NewsImg, NewsText} from './styles'
 
 function BoxNews() {
     return <Container>
-         News
-        <P>W= 100px <br></br> H= 100px</P>
+       <NewsImg></NewsImg>
+       <NewsText> <P>Capivaras aprendem a falar e pedem por direitos iguais</P></NewsText>
+       <NewsImg></NewsImg>
+       <NewsText></NewsText>
     </Container>
 }
 
