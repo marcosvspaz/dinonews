@@ -7,7 +7,6 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-size: 14px;
-   
     font-family: Arial, 'Segoe UI', Tahoma, Verdana, sans-serif;
   }
 
