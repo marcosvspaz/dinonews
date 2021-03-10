@@ -1,11 +1,12 @@
-import { Container, P, Arrows, Banner} from './styles'
+import { Container, P, Arrows, Banner,SlideUp,SlideDown} from './styles'
 
 function Carrousel () {
  return <Container>
-   <Arrows></Arrows>
-    <Banner></Banner>
 
-   <Arrows></Arrows>
+    <Banner></Banner>
+   <SlideUp></SlideUp>
+   <SlideDown></SlideDown>
+   <SlideUp></SlideUp>
 
  </Container>
 

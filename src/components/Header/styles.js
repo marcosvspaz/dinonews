@@ -9,26 +9,38 @@ font-size: 80px;
 display: inline-flex;
 padding:15px;
 padding-top:30px;
+text-align:center;
 `
 export const Menu = styled.div`
 margin-left:50px;
-width: 300px;
-height: 100px;
+padding:25px;
 background: black;
 color: white;
-font-size: 80px;
+font-size: 50px;
 text-align: center;
 display: inline-flex;
 text-align:center;
+
+@media(max-width: 654px) {
+    width: 25px;
+    height: 36px;
+    font-size: 10px;
+ }
 `
 
 export const Logo = styled.div`
 width: 140px;
 height: 140px;
-background-image: url(../../public/images/chester.jpeg);
+background: #000;
+@media(max-width: 654px) {
+    width: 50px;
+    height: 50px;
+   
+    font-size: 10px;
+ }
 `
 export const P = styled.p`
-font-size:30px;
+font-size:10;
 display: inline-block;
 text-align: center;
 `
