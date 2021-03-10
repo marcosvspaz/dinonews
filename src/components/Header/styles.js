@@ -3,8 +3,8 @@ import styled from 'styled-components'
 export const Container = styled.div`
 margin:0;
 width: 100%;
-background: pink;
-color: black;
+background: #44475a;
+color: #44475a;
 font-size: 80px;
 display: inline-flex;
 padding:15px;
@@ -14,7 +14,7 @@ text-align:center;
 export const Menu = styled.div`
 margin-left:50px;
 padding:25px;
-background: black;
+background: #44475a;
 color: white;
 font-size: 50px;
 text-align: center;
@@ -31,7 +31,7 @@ text-align:center;
 export const Logo = styled.div`
 width: 140px;
 height: 140px;
-background: #000;
+background: #50fa7b;
 @media(max-width: 654px) {
     width: 50px;
     height: 50px;
