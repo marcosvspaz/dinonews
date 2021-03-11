@@ -35,7 +35,7 @@ background: #50fa7b;
 @media(max-width: 654px) {
     width: 50px;
     height: 50px;
-   display: hidden;
+   display: none;
     font-size: 10px;
  }
 `
