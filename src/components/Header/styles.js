@@ -35,7 +35,7 @@ background: #50fa7b;
 @media(max-width: 654px) {
     width: 50px;
     height: 50px;
-   
+   display: hidden;
     font-size: 10px;
  }
 `
@@ -43,4 +43,15 @@ export const P = styled.p`
 font-size:10;
 display: inline-block;
 text-align: center;
+`
+
+export const MainTitle = styled.div`
+color: #f8f8f2;
+font-size: 98px;
+display: inline-flex;
+text-align: center;
+background: transparent;
+@media(max-width: 654px) {
+    
+ }
 `
