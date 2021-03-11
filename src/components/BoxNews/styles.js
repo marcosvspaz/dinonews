@@ -3,7 +3,6 @@ import styled from 'styled-components'
 export const Container = styled.div`
 margin-top:20px;
 padding:30px;
-border:0;
 width: 100%;
 height: 250px;
 background:  #282a36;
@@ -15,8 +14,8 @@ display: inline-flex;
 
 
 export const P = styled.p`
-
-background:  #282a36;
+font-size: 20px;
+background:  transparent;
 `
 export const NewsImg = styled.div`
 width: 200px;
@@ -33,12 +32,14 @@ display: inline-flex;
 export const NewsText = styled.div`
 width: 50%;
 height:200px;
-background:  #282a36;
+background: transparent;
 display: inline-flex;
+padding-top: 30px;
+padding-left: 30px;
 @media(max-width: 654px) {
     width: 100%;
     height: 100%;
    
-    font-size: 10px;
+
  }
 `

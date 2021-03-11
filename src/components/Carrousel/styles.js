@@ -5,17 +5,15 @@ margin-top: 30px;
 border:0;
 width: 100%;
 height: 360px;
-background: pink;
 color: black;
 font-size: 80px;
 text-align: center;
 display:inline-flex;
 
 @media(max-width: 654px) {
-    margin-top: 30px;
+    margin-top: 0px;
 border:0;
 width: 100%;
-background: pink;
 color: black;
 font-size: 80px;
 text-align: center;
@@ -69,6 +67,9 @@ background:#bd93f9;
 `
 
 export const P = styled.p`
+background: transparent;
+text-align: center;
+font-size: 28px;
 
 
 `
