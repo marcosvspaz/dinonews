@@ -3,10 +3,10 @@ import styled from 'styled-components'
 export const Container = styled.div`
 margin-top:20px;
 padding:30px;
-border:0;
+border-radius: 23px;
 width: 100%;
 height: 250px;
-background:  #282a36;
+background:  #44475a;
 color: #f8f8f2;
 font-size: 80px;
 text-align: center;
@@ -15,12 +15,13 @@ display: inline-flex;
 
 
 export const P = styled.p`
-
-background:  #282a36;
+font-size: 28px;
+background:  transparent;
 `
 export const NewsImg = styled.div`
 width: 200px;
 height:200px;
+border-radius:15px;
 background: orange;
 display: inline-flex;
 @media(max-width: 654px) {
@@ -31,9 +32,11 @@ display: inline-flex;
  }
 `
 export const NewsText = styled.div`
-width: 50%;
+width: 60%;
 height:200px;
-background:  #282a36;
+padding-top: 20px;
+padding-left:10px;
+background:  transparent;
 display: inline-flex;
 @media(max-width: 654px) {
     width: 100%;

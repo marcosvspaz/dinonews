@@ -44,3 +44,11 @@ font-size:10;
 display: inline-block;
 text-align: center;
 `
+
+export const DinoNews = styled.div`
+font-size:88px;
+display: inline-block;
+text-align: center;
+color: white;
+background: transparent;
+`

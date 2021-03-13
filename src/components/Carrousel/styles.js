@@ -47,7 +47,7 @@ background:black;
 export const SlideUp = styled.div`
 height:100%;
 width: 16.66%;
-background-color: #50fa7b;
+background-color:#50fa7b ;
 @media(max-width: 654px) {
     width: 33.33%;
     height: 50%;
