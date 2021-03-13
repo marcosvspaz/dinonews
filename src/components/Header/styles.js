@@ -45,7 +45,7 @@ display: inline-block;
 text-align: center;
 `
 
-export const MainTitle = styled.div`
+export const DinoNews = styled.div`
 color: #f8f8f2;
 font-size: 98px;
 display: inline-flex;
