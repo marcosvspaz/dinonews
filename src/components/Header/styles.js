@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { linearGradient } from 'polished'
 
 export const Container = styled.div`
 margin:0;
@@ -10,6 +11,11 @@ display: inline-flex;
 padding:15px;
 padding-top:30px;
 text-align:center;
+${linearGradient({
+colorStops: ['#282a36 0%', 'rgba(0, 0, 255, 0) 0%', '#282a36 95%'],
+toDirection: 'to bottom',
+fallback: '#44475a',
+})};
 `
 export const Menu = styled.div`
 margin-left:50px;
