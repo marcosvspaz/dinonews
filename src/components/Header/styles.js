@@ -35,7 +35,7 @@ background: #50fa7b;
 @media(max-width: 654px) {
     width: 50px;
     height: 50px;
-   
+   display: none;
     font-size: 10px;
  }
 `
@@ -46,9 +46,12 @@ text-align: center;
 `
 
 export const DinoNews = styled.div`
-font-size:88px;
-display: inline-block;
+color: #f8f8f2;
+font-size: 98px;
+display: inline-flex;
 text-align: center;
-color: white;
 background: transparent;
+@media(max-width: 654px) {
+    
+ }
 `

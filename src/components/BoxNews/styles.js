@@ -36,12 +36,12 @@ width: 60%;
 height:200px;
 padding-top: 20px;
 padding-left:10px;
-background:  transparent;
+background: transparent;
 display: inline-flex;
 @media(max-width: 654px) {
     width: 100%;
     height: 100%;
    
-    font-size: 10px;
+
  }
 `
